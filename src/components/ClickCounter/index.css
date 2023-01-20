@@ -1,0 +1,40 @@
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #2d3a35;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2d3a35;
+  margin-bottom: 20px;
+}
+.button {
+  height: 40px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 0px;
+  cursor: pointer;
+}
+.countStyle {
+  font-size: 40px;
+  color: #c20a72;
+  text-align: center;
+}
